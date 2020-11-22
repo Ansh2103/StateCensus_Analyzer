@@ -8,8 +8,6 @@ class CensusAnalyser:
     logging.basicConfig( filename='new_census_analyser.log',level=logging.DEBUG,
                          format='%(name)s | %(levelname)s | %(asctime)s | %(message)s')
 
-    census_list = []
-
     def check_extension(self, csv_file_path):
 
         FILE_REGEX = '.*.csv$'
@@ -23,12 +21,15 @@ class CensusAnalyser:
 
         self.check_extension(csv_file_path)
         try:
-            with open(csv_file_path, 'r') as census_data:
-                for line in csv.DictReader(census_data):
-                    self.census_list.append(line)
-                count = len(self.census_list)
-                logging.debug('Number of entries {}'.format(count - 1))
+            with open(csv_file_path, 'r') as census_file:
+                csv_reader = csv.DictReader(census_file)
+                next(csv_reader)
+                count = len(list(csv_reader))
+                logging.debug('Number of records: {}'.format(count))
+
         except FileNotFoundError:
             logging.exception('File Path Error Exception,Incorrect File Path Input ')
             raise WrongFilePathError('Please provide valid file path')
-        return count - 1
+
+        return count
+
