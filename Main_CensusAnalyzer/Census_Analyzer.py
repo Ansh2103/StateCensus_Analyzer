@@ -2,7 +2,7 @@ import csv
 import logging
 import re
 
-from Main_CensusAnalyzer.CensusAnalyser_Exception import WrongFilePathError,WrongExtensionFile
+from Main_CensusAnalyzer.CensusAnalyser_Exception import WrongFilePathError , WrongExtensionFile
 
 class CensusAnalyser:
     logging.basicConfig( filename='new_census_analyser.log',level=logging.DEBUG,
@@ -14,9 +14,9 @@ class CensusAnalyser:
 
         FILE_REGEX = '.*.csv$'
         pattern = re.compile(FILE_REGEX)
-        match = pattern.search(csv_file_path)
-        if not match:
-            logging.error(' There is an incorrect extension i.e; exception occured ')
+        validate = pattern.search(csv_file_path)
+        if not validate:
+            logging.error(' Exception occurred due to wrong file extension',)
             raise WrongExtensionFile(' Please provide a valid csv file')
 
     def load_census_data(self, csv_file_path):
