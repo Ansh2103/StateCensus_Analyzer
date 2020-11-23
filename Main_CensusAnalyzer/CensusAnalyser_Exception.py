@@ -10,3 +10,6 @@ class WrongFilePathError(CensusAnalyserException):
 
 class WrongExtensionFile(CensusAnalyserException):
     pass
+
+class WrongDelimiterFile(CensusAnalyserException):
+    pass
