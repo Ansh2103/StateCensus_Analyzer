@@ -2,15 +2,15 @@ import pytest
 
 from Main_CensusAnalyzer.CensusAnalyser_Exception import WrongFilePathError, WrongExtensionFile, WrongDelimiterFile
 
-INDIA_STATE_CENSUS_CSV_PATH = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCensusData.csv'
-WRONG_INDIA_STATE_CSV_FILE = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
-WRONG_FILE_TYPE = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCensusData.json'
-DELIMITER_CENSUS_DATA = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/delimeter_census_data.csv'
-WRONG_DELIMITER_PATH = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
-WRONG_HEADER_PATH = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
-INDIA_STATE_CODE_PATH = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCode.csv'
-WRONG__STATE_CODE_CSV_PATH = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
-WRONG_STATE_CODE_FILE_TYPE = '/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/StateCensusAnalyser/IndiaStateCode.json'
+INDIA_STATE_CENSUS_CSV_PATH = '../IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCensusData.csv'
+WRONG_INDIA_STATE_CSV_FILE = '../IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
+WRONG_FILE_TYPE = '../IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCensusData.json'
+DELIMITER_CENSUS_DATA = '../IndianStateCensusAnalyzer/Main_CensusAnalyzer/delimeter_census_data.csv'
+WRONG_DELIMITER_PATH = '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+WRONG_HEADER_PATH = '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+INDIA_STATE_CODE_PATH = '../IndianStateCensusAnalyzer/Main_CensusAnalyzer/IndiaStateCode.csv'
+WRONG__STATE_CODE_CSV_PATH = '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+WRONG_STATE_CODE_FILE_TYPE = '../IndianStateCensusAnalyzer/StateCensusAnalyser/IndiaStateCode.json'
 
 
 def test_load_census_data(instance_of_main_class):
