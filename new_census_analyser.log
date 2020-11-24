@@ -714,3 +714,139 @@ Traceback (most recent call last):
     with open(csv_file_path, 'r') as census_file:
 FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
 root | ERROR | 2020-11-23 21:49:39,466 |  Exception occurred due to wrong file extension
+root | DEBUG | 2020-11-24 00:48:08,083 | Number of records: 28
+root | ERROR | 2020-11-24 00:48:08,149 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
+root | DEBUG | 2020-11-24 00:48:08,179 | Number of records: 28
+root | DEBUG | 2020-11-24 00:48:08,193 | Number of records: 36
+root | ERROR | 2020-11-24 00:48:08,197 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 00:48:08,201 |  Exception occurred due to wrong file extension
+root | DEBUG | 2020-11-24 00:49:09,417 | Number of records: 28
+root | DEBUG | 2020-11-24 00:49:09,441 | Number of records: 28
+root | DEBUG | 2020-11-24 00:49:09,443 | Number of records: 36
+root | ERROR | 2020-11-24 00:49:09,445 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 00:49:09,447 |  Exception occurred due to wrong file extension
+root | DEBUG | 2020-11-24 06:05:52,711 | Number of records: 28
+root | ERROR | 2020-11-24 06:05:52,742 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
+root | ERROR | 2020-11-24 06:05:52,762 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:05:52,766 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+root | ERROR | 2020-11-24 06:05:52,771 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+root | DEBUG | 2020-11-24 06:05:52,797 | Number of records: 28
+root | DEBUG | 2020-11-24 06:05:52,811 | Number of records: 36
+root | ERROR | 2020-11-24 06:05:52,814 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 06:05:52,817 |  Exception occurred due to wrong file extension
+root | DEBUG | 2020-11-24 06:12:55,437 | Number of records: 28
+root | DEBUG | 2020-11-24 06:12:55,478 | Number of records: 28
+root | DEBUG | 2020-11-24 06:12:55,481 | Number of records: 36
+root | ERROR | 2020-11-24 06:12:55,484 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 06:12:55,501 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:12:55,506 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+root | ERROR | 2020-11-24 06:12:55,510 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+root | DEBUG | 2020-11-24 06:13:52,555 | Number of records: 28
+root | DEBUG | 2020-11-24 06:13:52,558 | Number of records: 28
+root | DEBUG | 2020-11-24 06:13:52,561 | Number of records: 36
+root | ERROR | 2020-11-24 06:13:52,565 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 06:13:52,570 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:13:52,573 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+root | ERROR | 2020-11-24 06:13:52,576 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+root | DEBUG | 2020-11-24 06:17:56,949 | Number of records: 28
+root | ERROR | 2020-11-24 06:17:56,953 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
+root | ERROR | 2020-11-24 06:17:56,958 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:17:56,962 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 06:17:56,966 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:17:56,971 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+root | ERROR | 2020-11-24 06:17:56,975 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+root | DEBUG | 2020-11-24 06:17:56,980 | Number of records: 28
+root | DEBUG | 2020-11-24 06:17:56,984 | Number of records: 36
+root | DEBUG | 2020-11-24 06:23:16,932 | Number of records: 28
+root | ERROR | 2020-11-24 06:23:16,941 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/IndiaStateCensusData.csv'
+root | ERROR | 2020-11-24 06:23:16,961 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:23:16,967 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_StateCensusAnalyzer/IndiaStateCode.csv'
+root | ERROR | 2020-11-24 06:23:16,972 |  Exception occurred due to wrong file extension
+root | ERROR | 2020-11-24 06:23:16,976 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/delimeter_census_data.csv'
+root | ERROR | 2020-11-24 06:23:16,981 | File Path Error Exception,Incorrect File Path Input 
+Traceback (most recent call last):
+  File "/home/shubh/PycharmProjects/IndianStateCensusAnalyzer/Main_CensusAnalyzer/Census_Analyzer.py", line 24, in load_census_data
+    with open(csv_file_path, 'r') as census_file:
+FileNotFoundError: [Errno 2] No such file or directory: '../IndianStateCensusAnalyzer/test_CensusAnalyzer/MissingHeader_StateCensusData.csv'
+root | DEBUG | 2020-11-24 06:23:16,994 | Number of records: 28
+root | DEBUG | 2020-11-24 06:23:16,999 | Number of records: 36
