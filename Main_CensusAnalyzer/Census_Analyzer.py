@@ -3,12 +3,20 @@ import logging
 import re
 
 from Main_CensusAnalyzer.CensusAnalyser_Exception import WrongFilePathError , WrongExtensionFile , WrongDelimiterFile
+
 logging.basicConfig( filename='new_census_analyser.log',level=logging.DEBUG,
                          format='%(name)s | %(levelname)s | %(asctime)s | %(message)s')
+
+
 class CensusAnalyser:
 
-
     def check_extension(self, csv_file_path):
+        '''
+
+        :param csv_file_path: csv file path will be entered by user
+        :return: if the entered file matches the pattern,otherwise
+                    it will raise exception
+        '''
 
         FILE_REGEX = '.*.csv$'
         pattern = re.compile(FILE_REGEX)
@@ -17,8 +25,14 @@ class CensusAnalyser:
             logging.error(' Exception occurred due to wrong file extension',)
             raise WrongExtensionFile(' Please provide a valid csv file')
 
-    def load_census_data(self, csv_file_path):
 
+    def load_census_data(self, csv_file_path):
+        '''
+
+        :param csv_file_path: csv file path must be entered by user
+        :return: it retuens the numbers of records present in the
+                loaded csv_file path
+        '''
         self.check_extension(csv_file_path)
         try:
             with open(csv_file_path, 'r') as census_file:
@@ -32,6 +46,8 @@ class CensusAnalyser:
             raise WrongFilePathError('Please provide valid file path')
 
         return count
+
+
 
     def load_census_delimiter_data(self, csv_file_path):
 
